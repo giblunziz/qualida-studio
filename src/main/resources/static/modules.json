@@ -1,0 +1,44 @@
+[
+  {
+    "name": "admin",
+    "key": "ADMIN",
+    "icon": "extension",
+    "route": "/admin",
+    "controller": "api/admin",
+    "enabled": true,
+    "secured": true,
+    "auth": "APP_QS_ADMIN",
+    "endpoints": [
+      {
+        "name": "Gestion des BU",
+        "key": "BU",
+        "endpoint": "bu",
+        "enabled": true
+      },
+      {
+        "name": "Gestion des projets",
+        "key": "PROJECT",
+        "endpoint": "project",
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "name": "source",
+    "key": "SOURCE",
+    "icon": "share",
+    "route": "/profile",
+    "controller": "api/source",
+    "enabled": false,
+    "secured": true,
+    "auth": "APP_QS_ADMIN",
+    "endpoints": [
+      {
+        "name": "Gestion des BU",
+        "key": "BU",
+        "endpoint": "bu",
+        "enabled": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "id01",
+    "name": "qualida",
+    "owner": "ASFR",
+    "description": "Projet principal qualida",
+    "projectType": "ROOT",
+    "enabled": true
+  },
+  {
+    "id": "id02",
+    "name": "Project one",
+    "owner": "LMFR",
+    "description": "Project-one of LMFR",
+    "projectType": "INNER_SOURCING",
+    "enabled": true
+  },
+  {
+    "id": "id03",
+    "name": "Project two",
+    "owner": "LMES",
+    "description": "Project-two of LMES",
+    "projectType": "INNER_SOURCING",
+    "enabled": false
+  }
+]
